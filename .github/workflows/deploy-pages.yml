@@ -37,7 +37,7 @@ jobs:
 
       - name: Build for GitHub Pages
         env:
-          BASE_PATH: /${{ github.event.repository.name }}/
+          BASE_PATH: /
           GITHUB_PAGES: true
         run: pnpm run build
 
