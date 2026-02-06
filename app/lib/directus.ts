@@ -30,11 +30,18 @@ interface Hackingtime {
   end: 'datetime'
 }
 
+interface Announcement {
+  id: number
+  content?: string
+  visible: boolean
+}
+
 interface Schema {
   sponsors: Sponsor[]
   schedule: Schedule[]
   wifi: Wifi
   hackingtime: Hackingtime
+  announcement: Announcement
 }
 
 const directus = createDirectus<Schema>(import.meta.env.VITE_DIRECTUS_URL).with(rest())

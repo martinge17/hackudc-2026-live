@@ -1,0 +1,693 @@
+{
+  "version": "2.7",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "TV Content",
+      "context": "TV Screen Content.",
+      "clip": true,
+      "width": 1920,
+      "height": 1080,
+      "fill": {
+        "type": "image",
+        "opacity": 0.2,
+        "enabled": true,
+        "url": "./build/client/images/pattern.png",
+        "mode": "fill"
+      },
+      "children": [
+        {
+          "type": "frame",
+          "id": "82jB2",
+          "name": "Left Section",
+          "width": 1280,
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": 48,
+          "children": [
+            {
+              "type": "frame",
+              "id": "VFmRK",
+              "name": "Header",
+              "width": "fill_container",
+              "height": 60,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rNppx",
+                  "name": "Logo",
+                  "width": 200,
+                  "height": 36,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./build/client/images/logo.png",
+                    "mode": "fit"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "VgjCM",
+                  "name": "Current Time",
+                  "fill": "#a3a3a3",
+                  "content": "14:32",
+                  "fontFamily": "Inter",
+                  "fontSize": 32
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "alzmi",
+              "name": "Countdown",
+              "width": "fill_container",
+              "height": 140,
+              "layout": "vertical",
+              "gap": 8,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TWThi",
+                  "name": "countdownLabel",
+                  "fill": "#525252",
+                  "content": "HACKING ENDS IN",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "9X2dE",
+                  "name": "countdownValue",
+                  "fill": "#fafafa",
+                  "content": "23:45:12",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 90
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bDdpB",
+              "name": "Schedule",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uGxP5",
+                  "name": "scheduleTitle",
+                  "fill": "#737373",
+                  "content": "Schedule",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "AUmhH",
+                  "name": "Schedule Entry Live",
+                  "width": "fill_container",
+                  "fill": "#000000ff",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UQWKE",
+                      "name": "entry1Tags",
+                      "fill": "#ffd230",
+                      "content": "Workshop",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "VMKxX",
+                      "name": "entry1Time",
+                      "fill": "#7c3f00",
+                      "content": "14:00 – 15:30",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "haNhz",
+                      "name": "entry1Title",
+                      "fill": "#1a1a1a",
+                      "content": "Building APIs with Directus",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CiMt6",
+                      "name": "entry1Desc",
+                      "fill": "#404040",
+                      "content": "Learn how to build headless backends for your hackathon projects.",
+                      "fontFamily": "Inter",
+                      "fontSize": 18
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ae9U4",
+                      "name": "entry1Status",
+                      "fill": "#ffd230",
+                      "content": "LIVE NOW",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hlhIZ",
+                  "name": "Schedule Entry Past",
+                  "width": "fill_container",
+                  "fill": "#000000ff",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 0,
+                    "fill": "#262626"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iOkWR",
+                      "name": "entry2Tags",
+                      "fill": "#737373",
+                      "content": "Opening",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iOLAg",
+                      "name": "entry2Time",
+                      "fill": "#525252",
+                      "content": "09:00 – 09:30",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WaWVK",
+                      "name": "entry2Title",
+                      "fill": "#525252",
+                      "content": "Welcome & Kickoff",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "w7kan",
+                      "name": "entry2Desc",
+                      "fill": "#404040",
+                      "content": "Official start of HackUDC 2026.",
+                      "fontFamily": "Inter",
+                      "fontSize": 18
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uOW81",
+                  "name": "Schedule Entry Future",
+                  "width": "fill_container",
+                  "fill": "#000000ff",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 0,
+                    "fill": "#262626"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "q9LPv",
+                      "name": "entry3Tags",
+                      "fill": "#a3a3a3",
+                      "content": "Workshop",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "x5hEv",
+                      "name": "entry3TimeRange",
+                      "fill": "#a3a3a3",
+                      "content": "15:00 – 16:00",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FnhkZ",
+                      "name": "entry3Title",
+                      "fill": "#e5e5e5",
+                      "content": "AI & ML Integration",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dgBWl",
+                      "name": "entry3Desc",
+                      "fill": "#a3a3a3",
+                      "content": "Integrate AI into your hackathon projects.",
+                      "fontFamily": "Inter",
+                      "fontSize": 18
+                    },
+                    {
+                      "type": "text",
+                      "id": "QZI61",
+                      "name": "entry3Time",
+                      "fill": "#737373",
+                      "content": "in 45 minutes",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JuSDg",
+                  "name": "Schedule Entry Future 2",
+                  "width": "fill_container",
+                  "fill": "#000000ff",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 0,
+                    "fill": "#262626"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k944K",
+                      "name": "entry4Tags",
+                      "fill": "#a3a3a3",
+                      "content": "Closing",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0OyMz",
+                      "name": "entry4TimeRange",
+                      "fill": "#a3a3a3",
+                      "content": "18:00 – 20:00",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Vj48l",
+                      "name": "entry4Title",
+                      "fill": "#e5e5e5",
+                      "content": "Demo & Awards",
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qrQBD",
+                      "name": "entry4Desc",
+                      "fill": "#a3a3a3",
+                      "content": "Present your projects and win prizes.",
+                      "fontFamily": "Inter",
+                      "fontSize": 18
+                    },
+                    {
+                      "type": "text",
+                      "id": "7GMV2",
+                      "name": "entry4Time",
+                      "fill": "#737373",
+                      "content": "in 3h 22m",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "U0ihI",
+          "name": "Right Section",
+          "width": 640,
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": 48,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Dxd1q",
+              "name": "Sponsors Content",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "oi1yI",
+                  "name": "Main Sponsor",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#000000",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "B16z7",
+                      "name": "mainSponsorPlaceholder",
+                      "fill": "#525252",
+                      "content": "Logo",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "a5zoe",
+                  "name": "Secondary Sponsors",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qlt6N",
+                      "name": "Secondary Col 1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "m0wzd",
+                          "name": "Secondary 1",
+                          "width": "fill_container",
+                          "height": 72,
+                          "fill": "#000000",
+                          "cornerRadius": 6
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ptAKh",
+                          "name": "Secondary 2",
+                          "width": "fill_container",
+                          "height": 72,
+                          "fill": "#000000",
+                          "cornerRadius": 6
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kp2GH",
+                          "name": "Secondary 3",
+                          "width": "fill_container",
+                          "height": 72,
+                          "fill": "#000000",
+                          "cornerRadius": 6
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "32dwF",
+                      "name": "Secondary Col 2",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "wafnx",
+                          "name": "Secondary 4",
+                          "width": "fill_container",
+                          "height": 72,
+                          "fill": "#000000",
+                          "cornerRadius": 6
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zYBhJ",
+                          "name": "Secondary 5",
+                          "width": "fill_container",
+                          "height": 72,
+                          "fill": "#000000",
+                          "cornerRadius": 6
+                        },
+                        {
+                          "type": "frame",
+                          "id": "eh4Uk",
+                          "name": "Secondary 6",
+                          "width": "fill_container",
+                          "height": 72,
+                          "fill": "#000000",
+                          "cornerRadius": 6
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "L3Zo1",
+                  "name": "Third Tier Sponsor",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": "#000000",
+                  "cornerRadius": 4
+                },
+                {
+                  "type": "frame",
+                  "id": "n7VxX",
+                  "name": "Collaborators",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Iai6U",
+                      "name": "Col 1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "GStQ3",
+                          "name": "Collaborator 1",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#000000",
+                          "cornerRadius": 4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "srUt3",
+                          "name": "Collaborator 2",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#000000",
+                          "cornerRadius": 4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "plToK",
+                          "name": "Collaborator 3",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#000000",
+                          "cornerRadius": 4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SDypP",
+                      "name": "Col 2",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "C4Mih",
+                          "name": "Collaborator 4",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#000000",
+                          "cornerRadius": 4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tvgtF",
+                          "name": "Collaborator 5",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#000000",
+                          "cornerRadius": 4
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LnWSF",
+                          "name": "Collaborator 6",
+                          "width": "fill_container",
+                          "height": 40,
+                          "fill": "#000000",
+                          "cornerRadius": 4
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Eh8uB",
+              "name": "Wi-Fi",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#262626"
+              },
+              "gap": 24,
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ju93y",
+                  "name": "Wi-Fi Info",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HX914",
+                      "name": "wifiLabel",
+                      "fill": "#525252",
+                      "content": "Wi-Fi",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GqvRK",
+                      "name": "wifiSSID",
+                      "fill": "#a3a3a3",
+                      "content": "HackUDC-2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jklua",
+                      "name": "wifiPass",
+                      "fill": "#737373",
+                      "content": "Password: hackudc2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 12
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "kGcaa",
+                  "name": "Organized By",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Lk0rl",
+                      "name": "organizedByText",
+                      "fill": "#525252",
+                      "content": "Organized by",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zQdTN",
+                      "name": "GPUL Logo",
+                      "width": 80,
+                      "height": 40,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./public/images/gpul.png",
+                        "mode": "fit"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
