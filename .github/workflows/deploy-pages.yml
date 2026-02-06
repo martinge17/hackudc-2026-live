@@ -31,6 +31,9 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build for GitHub Pages
+        env:
+          BASE_PATH: /
+          GITHUB_PAGES: true
         run: pnpm run build
 
       - name: Setup Pages
