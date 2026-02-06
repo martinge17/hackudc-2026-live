@@ -434,12 +434,10 @@ function ScheduleCard({ item, isActive }: ScheduleCardProps) {
             <span className="inline-flex items-center gap-1.5">
               <Clock className="h-3.5 w-3.5 text-neutral-500 shrink-0" />
               <span className="tabular-nums">{startLabel}</span>
+              <span className="tabular-nums text-neutral-500">{durationLabel}</span>
             </span>
+
             <span className="tabular-nums text-neutral-500">→ {endLabel}</span>
-          </div>
-          <div className="inline-flex items-center gap-1 rounded-full border border-neutral-700 px-2 py-0.5 bg-neutral-900/40 text-[11px]">
-            <span className="h-1 w-4 rounded-full bg-neutral-500" />
-            <span className="tabular-nums">{durationLabel}</span>
           </div>
         </div>
         <div className="mt-2 flex flex-col items-start gap-1 text-[11px] text-neutral-400">
